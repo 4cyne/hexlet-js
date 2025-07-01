@@ -1,0 +1,22 @@
+.PHONY: install brain-games publish lint
+
+install:
+	npm ci
+
+lint:
+	npx eslint .
+	
+fix: 
+	npx eslint --fix
+
+	.PHONY: install brain-games publish lint
+
+install:
+	npm ci
+
+lint:
+	npx eslint .
+
+go: 
+	node index.js
+	

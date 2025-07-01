@@ -1,3 +1,3 @@
-import Greeting from "./src/index.js";
+import Greeting from './src/index.js'
 
-Greeting();
+Greeting()
